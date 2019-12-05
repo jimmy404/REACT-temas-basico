@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import PrimerComponente from './components/PrimerComponente';
+import Header from './components/Header';
 
 
 
@@ -7,8 +7,9 @@ function App() {
 
 return (
   <Fragment>
-
-
+  <Header
+    titulo='Tienda Virtual'
+  />
   </Fragment>
   );
 }
