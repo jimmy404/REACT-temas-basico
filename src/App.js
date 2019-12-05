@@ -5,9 +5,11 @@ import PrimerComponente from './components/PrimerComponente';
 
 function App() {
 
+return (
+  <Fragment>
 
-  return (
-    <PrimerComponente />
+
+  </Fragment>
   );
 }
 
